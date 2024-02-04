@@ -10,7 +10,7 @@ import wind_icon from '../Assets/wind.png'
 import humidity_icon from '../Assets/humidity.png'
 function WeatherApp() {
 
-    let api_key = "35b83ab43edbb4948b0f1d92017b67a8";
+    let api_key = "------------------------------";
     const [wicon, setWicon] = useState(cloud_icon)
     const search = async () => {
         const element = document.getElementsByClassName("cityInput");
